@@ -1,13 +1,10 @@
-﻿<Window
+﻿<Page
 	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
 	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-	x:Class="TemplateImport.Snap"
-	x:Name="Window"
-	Title="Snap"
-	Width="640" Height="480">
+	x:Class="NumeralSystems.Snap">
 
 	<Grid x:Name="LayoutRoot">
-		<Canvas x:Name="systemy_liczbowe" ClipToBounds="True" HorizontalAlignment="Left" Height="768" UseLayoutRounding="False" VerticalAlignment="Top" Width="1366">
+		<Canvas x:Name="systemy_liczbowe" HorizontalAlignment="Left" Height="768" UseLayoutRounding="False" VerticalAlignment="Top" Width="1366">
 			<Image x:Name="bg_copy_2" Height="768" Canvas.Left="0" Source="systemy liczbowe_Images\bg copy 2.png" Canvas.Top="0" Width="1366"/>
 			<Canvas x:Name="Snap__split_view_" Height="794" Canvas.Left="0" Canvas.Top="0" Width="1366">
 				<Image x:Name="bg_copy" Height="768" Canvas.Left="0" Source="systemy liczbowe_Images\bg copy.png" Canvas.Top="0" Width="1366"/>
@@ -170,17 +167,17 @@
 					<Canvas x:Name="wtniki" Height="310" Canvas.Left="0" Canvas.Top="408" Width="310">
 						<Canvas x:Name="_2_copy_7" Height="150" Canvas.Left="0" Canvas.Top="160" Width="310">
 							<Image x:Name="kafelek2" Height="150" Canvas.Left="0" Source="systemy liczbowe_Images\kafelek2.png" Canvas.Top="0" Width="310"/>
-							<TextBlock x:Name="Layer_3" Foreground="#FF017788" FontSize="80" FontFamily="DS-Digital" Height="68.422" IsHyphenationEnabled="True" LineStackingStrategy="BlockLineHeight" Canvas.Left="175.739" LineHeight="80" TextAlignment="Center" TextWrapping="Wrap" Text="" Canvas.Top="16.772" Width="117.887">
+							<TextBlock x:Name="Layer_3" Foreground="#FF017788" FontSize="80" FontFamily="DS-Digital" Height="68.422" LineStackingStrategy="BlockLineHeight" Canvas.Left="175.739" LineHeight="80" TextAlignment="Center" TextWrapping="Wrap" Text="" Canvas.Top="16.772" Width="117.887">
 								<TextBlock.RenderTransform>
 									<MatrixTransform Matrix="1.092,0,0,1.086,0,0"/>
 								</TextBlock.RenderTransform>
 							</TextBlock>
-							<TextBlock x:Name="_2" Foreground="#FFFFFFFF" FontSize="80" FontFamily="DS-Digital" Height="51.157" IsHyphenationEnabled="True" LineStackingStrategy="BlockLineHeight" Canvas.Left="251.056" LineHeight="80" TextAlignment="Center" TextWrapping="Wrap" Text="4" Canvas.Top="26.552" Width="40.956">
+							<TextBlock x:Name="_2" Foreground="#FFFFFFFF" FontSize="80" FontFamily="DS-Digital" Height="51.157" LineStackingStrategy="BlockLineHeight" Canvas.Left="251.056" LineHeight="80" TextAlignment="Center" TextWrapping="Wrap" Text="4" Canvas.Top="26.552" Width="40.956">
 								<TextBlock.RenderTransform>
 									<MatrixTransform Matrix="1.024,0,0,1.003,0,0"/>
 								</TextBlock.RenderTransform>
 							</TextBlock>
-							<TextBlock x:Name="heksadecymalny" Foreground="#FFFFFFFF" FontSize="30" FontFamily="Segoe UI" Height="40.185" IsHyphenationEnabled="True" LineStackingStrategy="BlockLineHeight" Canvas.Left="1.234" LineHeight="30" TextAlignment="Center" TextWrapping="Wrap" Text="heksadecymalny" Canvas.Top="111.794" Width="304.542">
+							<TextBlock x:Name="heksadecymalny" Foreground="#FFFFFFFF" FontSize="30" FontFamily="Segoe UI" Height="40.185" LineStackingStrategy="BlockLineHeight" Canvas.Left="1.234" LineHeight="30" TextAlignment="Center" TextWrapping="Wrap" Text="heksadecymalny" Canvas.Top="111.794" Width="304.542">
 								<TextBlock.RenderTransform>
 									<MatrixTransform Matrix="1.092,0,0,1.086,0,0"/>
 								</TextBlock.RenderTransform>
@@ -188,17 +185,17 @@
 						</Canvas>
 						<Canvas x:Name="_2_copy_8" Height="150" Canvas.Left="0" Canvas.Top="160" Width="310">
 							<Image x:Name="kafelek1" Height="150" Canvas.Left="0" Source="systemy liczbowe_Images\kafelek1.png" Canvas.Top="0" Width="310"/>
-							<TextBlock x:Name="Layer_2" Foreground="#FF017788" FontSize="80" FontFamily="DS-Digital" Height="68.422" IsHyphenationEnabled="True" LineStackingStrategy="BlockLineHeight" Canvas.Left="175.739" LineHeight="80" TextAlignment="Center" TextWrapping="Wrap" Text="" Canvas.Top="16.772" Width="117.887">
+							<TextBlock x:Name="Layer_2" Foreground="#FF017788" FontSize="80" FontFamily="DS-Digital" Height="68.422" LineStackingStrategy="BlockLineHeight" Canvas.Left="175.739" LineHeight="80" TextAlignment="Center" TextWrapping="Wrap" Text="" Canvas.Top="16.772" Width="117.887">
 								<TextBlock.RenderTransform>
 									<MatrixTransform Matrix="1.092,0,0,1.086,0,0"/>
 								</TextBlock.RenderTransform>
 							</TextBlock>
-							<TextBlock x:Name="_1" Foreground="#FFFFFFFF" FontSize="80" FontFamily="DS-Digital" Height="51.157" IsHyphenationEnabled="True" LineStackingStrategy="BlockLineHeight" Canvas.Left="251.056" LineHeight="80" TextAlignment="Center" TextWrapping="Wrap" Text="4" Canvas.Top="26.552" Width="40.956">
+							<TextBlock x:Name="_1" Foreground="#FFFFFFFF" FontSize="80" FontFamily="DS-Digital" Height="51.157" LineStackingStrategy="BlockLineHeight" Canvas.Left="251.056" LineHeight="80" TextAlignment="Center" TextWrapping="Wrap" Text="4" Canvas.Top="26.552" Width="40.956">
 								<TextBlock.RenderTransform>
 									<MatrixTransform Matrix="1.024,0,0,1.003,0,0"/>
 								</TextBlock.RenderTransform>
 							</TextBlock>
-							<TextBlock x:Name="decymalny" Foreground="#FFFFFFFF" FontSize="30" FontFamily="Segoe UI" Height="40.185" IsHyphenationEnabled="True" LineStackingStrategy="BlockLineHeight" Canvas.Left="1.234" LineHeight="30" TextAlignment="Center" TextWrapping="Wrap" Text="decymalny" Canvas.Top="111.794" Width="304.542">
+							<TextBlock x:Name="decymalny" Foreground="#FFFFFFFF" FontSize="30" FontFamily="Segoe UI" Height="40.185" LineStackingStrategy="BlockLineHeight" Canvas.Left="1.234" LineHeight="30" TextAlignment="Center" TextWrapping="Wrap" Text="decymalny" Canvas.Top="111.794" Width="304.542">
 								<TextBlock.RenderTransform>
 									<MatrixTransform Matrix="1.092,0,0,1.086,0,0"/>
 								</TextBlock.RenderTransform>
@@ -206,17 +203,17 @@
 						</Canvas>
 						<Canvas x:Name="_2_copy_9" Height="150" Canvas.Left="0" Canvas.Top="0" Width="310">
 							<Image x:Name="kafelek" Height="150" Canvas.Left="0" Source="systemy liczbowe_Images\kafelek.png" Canvas.Top="0" Width="310"/>
-							<TextBlock x:Name="Layer_1" Foreground="#FF017788" FontSize="80" FontFamily="DS-Digital" Height="68.422" IsHyphenationEnabled="True" LineStackingStrategy="BlockLineHeight" Canvas.Left="175.739" LineHeight="80" TextAlignment="Center" TextWrapping="Wrap" Text="" Canvas.Top="16.772" Width="117.887">
+							<TextBlock x:Name="Layer_1" Foreground="#FF017788" FontSize="80" FontFamily="DS-Digital" Height="68.422" LineStackingStrategy="BlockLineHeight" Canvas.Left="175.739" LineHeight="80" TextAlignment="Center" TextWrapping="Wrap" Text="" Canvas.Top="16.772" Width="117.887">
 								<TextBlock.RenderTransform>
 									<MatrixTransform Matrix="1.092,0,0,1.086,0,0"/>
 								</TextBlock.RenderTransform>
 							</TextBlock>
-							<TextBlock x:Name="_4" Foreground="#FFFFFFFF" FontSize="80" FontFamily="DS-Digital" Height="51.157" IsHyphenationEnabled="True" LineStackingStrategy="BlockLineHeight" Canvas.Left="251.056" LineHeight="80" TextAlignment="Center" TextWrapping="Wrap" Text="4" Canvas.Top="26.552" Width="40.956">
+							<TextBlock x:Name="_4" Foreground="#FFFFFFFF" FontSize="80" FontFamily="DS-Digital" Height="51.157" LineStackingStrategy="BlockLineHeight" Canvas.Left="251.056" LineHeight="80" TextAlignment="Center" TextWrapping="Wrap" Text="4" Canvas.Top="26.552" Width="40.956">
 								<TextBlock.RenderTransform>
 									<MatrixTransform Matrix="1.024,0,0,1.003,0,0"/>
 								</TextBlock.RenderTransform>
 							</TextBlock>
-							<TextBlock x:Name="oktalny" Foreground="#FFFFFFFF" FontSize="30" FontFamily="Segoe UI" Height="40.185" IsHyphenationEnabled="True" LineStackingStrategy="BlockLineHeight" Canvas.Left="1.234" LineHeight="30" TextAlignment="Center" TextWrapping="Wrap" Text="oktalny" Canvas.Top="111.794" Width="304.542">
+							<TextBlock x:Name="oktalny" Foreground="#FFFFFFFF" FontSize="30" FontFamily="Segoe UI" Height="40.185" LineStackingStrategy="BlockLineHeight" Canvas.Left="1.234" LineHeight="30" TextAlignment="Center" TextWrapping="Wrap" Text="oktalny" Canvas.Top="111.794" Width="304.542">
 								<TextBlock.RenderTransform>
 									<MatrixTransform Matrix="1.092,0,0,1.086,0,0"/>
 								</TextBlock.RenderTransform>
@@ -231,4 +228,4 @@
 			</Canvas>
 		</Canvas>
 	</Grid>
-</Window>
+</Page>
