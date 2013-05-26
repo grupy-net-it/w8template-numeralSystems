@@ -63,7 +63,7 @@
                                     FontWeight="Normal"
                                     FontSize="40"
                                     Content="1"
-                                    Tapped="OneButton_Tapped" />
+                                Click="OneButton_Clicked" />
                             <Button Height="72"
                                     Canvas.Left="0"
                                     Canvas.Top="240"
@@ -74,7 +74,7 @@
                                     FontWeight="Normal"
                                     FontSize="40"
                                     Content="0"
-                                    Tapped="ZeroButton_Tapped" />
+                                    Click="ZeroButton_Clicked" />
                             <Button Height="72"
                                     Canvas.Left="80"
                                     Canvas.Top="240"
@@ -86,7 +86,7 @@
                                     FontWeight="Normal"
                                     FontSize="40"
                                     Content="Wyczyść"
-                                    Tapped="ClearButton_Tapped" />
+                                    Click="ClearButton_Clicked" />
                             <Button Canvas.Left="80"
                                     Canvas.Top="160"
                                     Width="73"

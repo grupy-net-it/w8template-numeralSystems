@@ -1,7 +1,5 @@
-﻿using System;
-
+﻿using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Navigation;
 
 namespace NumeralSystems
@@ -28,17 +26,17 @@ namespace NumeralSystems
         {
         }
 
-        private void OneButton_Tapped(object sender, TappedRoutedEventArgs e)
+        private void OneButton_Clicked(object sender, RoutedEventArgs e)
         {
             (DataContext as ViewModel).Binary += '1';
         }
 
-        private void ZeroButton_Tapped(object sender, TappedRoutedEventArgs e)
+        private void ZeroButton_Clicked(object sender, RoutedEventArgs e)
         {
             (DataContext as ViewModel).Binary += '0';
         }
 
-        private void ClearButton_Tapped(object sender, TappedRoutedEventArgs e)
+        private void ClearButton_Clicked(object sender, RoutedEventArgs e)
         {
             (DataContext as ViewModel).Reset();
         }
