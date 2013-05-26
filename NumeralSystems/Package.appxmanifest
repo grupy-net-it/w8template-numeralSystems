@@ -15,7 +15,7 @@
   </Resources>
   <Applications>
     <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="NumeralSystems.App">
-      <VisualElements DisplayName="NumeralSystems" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="NumeralSystems" ForegroundText="light" BackgroundColor="#464646">
+      <VisualElements DisplayName="Systemy Liczbowe" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="Aplikacja zamienia liczby pomiędzy formatami: dziesiętnym, binarnym, ósemkowym oraz szestnastkowym." ForegroundText="light" BackgroundColor="#464646">
         <DefaultTile ShowName="allLogos" />
         <SplashScreen Image="Assets\SplashScreen.png" />
         <InitialRotationPreference>
