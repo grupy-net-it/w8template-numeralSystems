@@ -110,54 +110,31 @@
     <Compile Include="Charms.xaml.cs">
       <DependentUpon>Charms.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Full.xaml.cs">
-      <DependentUpon>Full.xaml</DependentUpon>
-    </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Properties\Annotations.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Snap.xaml.cs">
       <DependentUpon>Snap.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Splash.xaml.cs">
-      <DependentUpon>Splash.xaml</DependentUpon>
-    </Compile>
+    <Compile Include="ViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
-    <Content Include="Application.ico" />
+    <Content Include="Assets\Application.ico" />
     <Content Include="systemy liczbowe_Images\back small.png" />
     <Content Include="systemy liczbowe_Images\Background.png" />
-    <Content Include="systemy liczbowe_Images\bg copy 2.png" />
-    <Content Include="systemy liczbowe_Images\bg copy 4.png" />
-    <Content Include="systemy liczbowe_Images\bg copy.png" />
+    <Content Include="Assets\background.png" />
     <Content Include="systemy liczbowe_Images\bg.png" />
     <Content Include="systemy liczbowe_Images\Flyout.png" />
     <Content Include="systemy liczbowe_Images\Gripper.png" />
     <Content Include="systemy liczbowe_Images\kafelek copy 2.png" />
-    <Content Include="systemy liczbowe_Images\kafelek copy.png" />
+    <Content Include="Assets\lcd-big.png" />
     <Content Include="systemy liczbowe_Images\kafelek.png" />
-    <Content Include="systemy liczbowe_Images\kafelek1.png" />
-    <Content Include="systemy liczbowe_Images\kafelek2.png" />
-    <Content Include="systemy liczbowe_Images\Rectangle 1 copy 10.png" />
-    <Content Include="systemy liczbowe_Images\Rectangle 1 copy 11.png" />
-    <Content Include="systemy liczbowe_Images\Rectangle 1 copy 12.png" />
-    <Content Include="systemy liczbowe_Images\Rectangle 1 copy 13.png" />
-    <Content Include="systemy liczbowe_Images\Rectangle 1 copy 14.png" />
-    <Content Include="systemy liczbowe_Images\Rectangle 1 copy 15.png" />
-    <Content Include="systemy liczbowe_Images\Rectangle 1 copy 16.png" />
-    <Content Include="systemy liczbowe_Images\Rectangle 1 copy 17.png" />
-    <Content Include="systemy liczbowe_Images\Rectangle 1 copy 18.png" />
-    <Content Include="systemy liczbowe_Images\Rectangle 1 copy 19.png" />
-    <Content Include="systemy liczbowe_Images\Rectangle 1 copy 4.png" />
-    <Content Include="systemy liczbowe_Images\Rectangle 1 copy 5.png" />
-    <Content Include="systemy liczbowe_Images\Rectangle 1 copy 6.png" />
-    <Content Include="systemy liczbowe_Images\Rectangle 1 copy 7.png" />
-    <Content Include="systemy liczbowe_Images\Rectangle 1 copy 8.png" />
-    <Content Include="systemy liczbowe_Images\Rectangle 1 copy 9.png" />
+    <Content Include="Assets\lcd.png" />
     <Content Include="systemy liczbowe_Images\sep bar.png" />
     <Content Include="systemy liczbowe_Images\Shape 1 copy 2.png" />
     <Content Include="systemy liczbowe_Images\Shape 1 copy 3.png" />
@@ -166,9 +143,9 @@
     <Content Include="template\fonts\ds_digital\DS-DIGIB.TTF" />
     <Content Include="template\fonts\ds_digital\DS-DIGII.TTF" />
     <Content Include="template\fonts\ds_digital\DS-DIGIT.TTF" />
+    <Content Include="Assets\ds-digi.ttf" />
     <None Include="template\Jpg\Thumbs.db" />
     <None Include="template\systemy liczbowe.psd" />
-    <None Include="template\Thumbs.db" />
     <None Include="template\Vectors\Icons.psd" />
     <None Include="template\Vectors\Minicons-Free.ai" />
   </ItemGroup>
@@ -194,19 +171,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Full.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
     <Page Include="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Snap.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Splash.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>

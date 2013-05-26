@@ -1,7 +1,8 @@
-﻿using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Navigation;
+﻿using System;
 
-// The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
+using Windows.UI.Xaml.Controls;
+using Windows.UI.Xaml.Input;
+using Windows.UI.Xaml.Navigation;
 
 namespace NumeralSystems
 {
@@ -12,7 +13,10 @@ namespace NumeralSystems
     {
         public MainPage()
         {
-            this.InitializeComponent();
+            InitializeComponent();
+            DataContext = new ViewModel();
+
+            (DataContext as ViewModel).Reset();
         }
 
         /// <summary>
@@ -22,6 +26,21 @@ namespace NumeralSystems
         /// property is typically used to configure the page.</param>
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
+        }
+
+        private void OneButton_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            (DataContext as ViewModel).Binary += '1';
+        }
+
+        private void ZeroButton_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            (DataContext as ViewModel).Binary += '0';
+        }
+
+        private void ClearButton_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            (DataContext as ViewModel).Reset();
         }
     }
 }
