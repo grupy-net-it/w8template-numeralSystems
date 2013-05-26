@@ -9,11 +9,12 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>NumeralSystems</RootNamespace>
     <AssemblyName>NumeralSystems</AssemblyName>
-    <DefaultLanguage>en-US</DefaultLanguage>
+    <DefaultLanguage>pl-PL</DefaultLanguage>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{BC8A1FFA-BEE3-4634-8014-F334798102B3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <PackageCertificateKeyFile>NumeralSystems_TemporaryKey.pfx</PackageCertificateKeyFile>
     <ExpressionBlendVersion>5.0.40218.0</ExpressionBlendVersion>
+    <PackageCertificateThumbprint>7007D42E7CD3644399ECDD45CD9D4EE380695BD8</PackageCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -144,6 +145,7 @@
     <Content Include="template\fonts\ds_digital\DS-DIGII.TTF" />
     <Content Include="template\fonts\ds_digital\DS-DIGIT.TTF" />
     <Content Include="Assets\ds-digi.ttf" />
+    <None Include="NumeralSystems_TemporaryKey.pfx" />
     <None Include="template\Jpg\Thumbs.db" />
     <None Include="template\systemy liczbowe.psd" />
     <None Include="template\Vectors\Icons.psd" />
